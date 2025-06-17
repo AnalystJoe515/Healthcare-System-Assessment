@@ -30,3 +30,19 @@ The project is structured around investigating several key areas using SQL:
 - Postgresql - Created database, data cleaning and analysis
 
 ### Data Cleaning
+The datasets were assessed thoroughly for duplicates and null values before analysis. 
+	``` sql
+SELECT DISTINCT result_id 
+FROM public."Lab_results";
+
+SELECT DISTINCT patient_name
+FROM public."Hospital_data_records";
+
+SELECT * FROM public."Appointment_data_analysis"
+WHERE patient_name IS NULL;
+
+SELECT patient_name, count(*) 
+FROM public."Patients_data_table"
+GROUP BY patient_name
+HAVING count(*) >1; 
+	```
