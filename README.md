@@ -10,13 +10,13 @@ The goal of this project was to conduct a comprehensive healthcare assessment an
 
 The project is structured around investigating several key areas using SQL:
 
-- Patient Care (Risk Factors): Focusing on identifying patients at risk based on specific clinical indicators such as blood sugar levels, cardiovascular risk factors, BMI, hyperlipidemia, medication interactions, and family history of hypertension. The aim is to enable early identification and intervention.
+- **Patient Care (Risk Factors)**: Focusing on identifying patients at risk based on specific clinical indicators such as blood sugar levels, cardiovascular risk factors, BMI, hyperlipidemia, medication interactions, and family history of hypertension. The aim is to enable early identification and intervention.
 
-- Population Demographics: Analyzing the distribution of patients within the healthcare system based on age and gender, understanding departmental admissions, and examining the frequency of specific tests across demographic groups to inform resource allocation.
+- **Population Demographics**: Analyzing the distribution of patients within the healthcare system based on age and gender, understanding departmental admissions, and examining the frequency of specific tests across demographic groups to inform resource allocation.
 
-- Clinical Research: Investigating the prevalence of various diagnoses, their distribution across demographic groups, identifying commonly ordered lab tests, exploring the correlation between smoking status and health outcomes, identifying cohorts with chronic diseases, and analyzing the trends of specific diagnoses over time to support clinical understanding and research.
+- **Clinical Research**: Investigating the prevalence of various diagnoses, their distribution across demographic groups, identifying commonly ordered lab tests, exploring the correlation between smoking status and health outcomes, identifying cohorts with chronic diseases, and analyzing the trends of specific diagnoses over time to support clinical understanding and research.
 
-- Healthcare Administration: Focusing on operational aspects such as analyzing appointment times, identifying patients with multiple visits within a short period (readmissions), optimizing the scheduling of follow-up tests, and comparing patient lengths of stay across different departments to improve efficiency and patient flow.
+- **Healthcare Administration**: Focusing on operational aspects such as analyzing appointment times, identifying patients with multiple visits within a short period (readmissions), optimizing the scheduling of follow-up tests, and comparing patient lengths of stay across different departments to improve efficiency and patient flow.
 
 ### Data sources
 - Hospital records dataset in a csv file containing patients' medical history
