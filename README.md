@@ -31,7 +31,7 @@ The project is structured around investigating several key areas using SQL:
 
 ### Data Cleaning
 The datasets were assessed thoroughly for duplicates and null values before analysis. 
-	``` sql
+``` sql
 SELECT DISTINCT result_id 
 FROM public."Lab_results";
 
@@ -44,5 +44,4 @@ WHERE patient_name IS NULL;
 SELECT patient_name, count(*) 
 FROM public."Patients_data_table"
 GROUP BY patient_name
-HAVING count(*) >1; 
-	```
+HAVING count(*) >1; ```sql
